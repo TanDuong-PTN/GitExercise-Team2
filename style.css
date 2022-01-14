@@ -1,7 +1,8 @@
 body {
     width: 100%;
     font-size: 16px;
-    margin: 0;
+    margin: 52px 0 38px;
+    padding: 10px 0;
 }
 .container{
     width: 80%;
@@ -25,4 +26,24 @@ nav a{
     text-decoration: none;
     padding: 7px 25px;
     display: inline-block;
+}
+
+.container.content-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.content {
+    width: 70%;
+}
+
+.sidebar img,
+.content img {
+    width: 100%;
 }
